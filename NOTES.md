@@ -150,8 +150,5 @@ curl -X POST https://wl4klkph49.execute-api.us-west-2.amazonaws.com/api/echo \
 
 4. **Cold start trade-off:** Phải chấp nhận cold start để có lợi ích của serverless (auto-scaling, pay-per-use)
 
----
 
-**Người thực hiện:** Nguyễn Ngọc Giao
-
-**Ngày hoàn thành:** 15/05/2026
+![alt text](image.png)
