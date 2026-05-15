@@ -140,15 +140,8 @@ curl -X POST https://wl4klkph49.execute-api.us-west-2.amazonaws.com/api/echo \
 
 ---
 
-## Lessons Learned
+## Evidence
 
-1. **BYOL approach giữ code clean:** Express app không biết gì về Lambda, dễ test và maintain
-
-2. **Adapter pattern rất powerful:** Chỉ cần 1 thin wrapper để bridge giữa Express và Lambda
-
-3. **SAM CLI tiện lợi:** Build, deploy, logs tất cả trong 1 tool
-
-4. **Cold start trade-off:** Phải chấp nhận cold start để có lợi ích của serverless (auto-scaling, pay-per-use)
 
 
 ![alt text](Evidence.jpg)
