@@ -1,9 +1,13 @@
 version = 0.1
 
 [default.deploy.parameters]
-stack_name = "byol-node-express"
-region = "us-west-2"
+stack_name = "byol-node-express-mrknife"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
 resolve_s3 = true
 disable_rollback = false
+s3_prefix = "byol-node-express-mrknife"
+image_repositories = []
+
+[default.global.parameters]
+region = "us-west-2"
