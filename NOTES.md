@@ -152,6 +152,6 @@ curl -X POST https://wl4klkph49.execute-api.us-west-2.amazonaws.com/api/echo \
 
 ---
 
-**Người thực hiện:** [Tên của bạn]
+**Người thực hiện:** Nguyễn Ngọc Giao
 
 **Ngày hoàn thành:** 15/05/2026
